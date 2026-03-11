@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/aleatidb/public_html/
+    - export DEPLOYPATH=/home/aleah/public_html/
     - rsync -av --exclude='.git' --exclude='.cpanel.yml' . $DEPLOYPATH
