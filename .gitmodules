@@ -1,0 +1,3 @@
+[submodule "vichan"]
+	path = vichan
+	url = https://github.com/vichan-devel/vichan.git
