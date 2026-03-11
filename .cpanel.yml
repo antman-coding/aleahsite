@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/aleah/public_html/
-    - rsync -av --exclude='.git' --exclude='.cpanel.yml' . $DEPLOYPATH
+    - rsync -rlz --no-perms --no-owner --no-group --exclude='.git' --exclude='.cpanel.yml' . $DEPLOYPATH
