@@ -1,0 +1,13 @@
+# WebHostMost .htaccess Configuration
+
+# Created: [Today’s Date]
+
+# 
+
+# WARNING: Backup this file before making changes!
+
+# Enable RewriteEngine for URL processing
+
+RewriteEngine On
+
+# Your rules go below this line
