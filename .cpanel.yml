@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/aleatidb/public_html/
-    - /bin/cp -R . $DEPLOYPATH
+    - rsync -av --exclude='.git' --exclude='.cpanel.yml' . $DEPLOYPATH
